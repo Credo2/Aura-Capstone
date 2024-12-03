@@ -1,0 +1,25 @@
+{
+	"extends": "expo/tsconfig.base",
+	"compilerOptions": {
+		"strict": true,
+		"jsx": "react-native",
+		"paths": {
+			"@/*": ["./*"]
+		}
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		".expo/types/**/*.ts",
+		"expo-env.d.ts",
+		"nativewind-env.d.ts",
+		"app/(tabs)/bookmark.tsx",
+		"app/(tabs)/_layout.tsx",
+		"app/(tabs)/create.tsx",
+		"app/(tabs)/home.tsx",
+		"app/(tabs)/profile.tsx",
+		"app/index.tsx",
+		"app/_layout.tsx",
+		"components/CustomButton.jsx"
+, "components/VideoCard.tsx"	]
+}
